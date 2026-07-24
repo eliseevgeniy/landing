@@ -151,7 +151,7 @@ padding-bottom: 120px;
 }
 .cond {
   margin-top: 470px;
-  background: url(../assets/images/cond/Eclipse.png);
+  background: url(/assets/images/cond/Eclipse.png);
   width: 100%;
   background-size: cover;
 }
@@ -333,7 +333,7 @@ color: #FFFFFF;
 }
 
 .zayavka {
-  background-image: url(../assets/images/forma/Eclipse.png);
+  background-image: url(/assets/images/forma/Eclipse.png);
   background-position: center;
 }
  .container-zay {
