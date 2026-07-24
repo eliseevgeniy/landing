@@ -14,11 +14,9 @@ Landing/
 ├── index.html # Главная страница
 ├── css/
 │ ├── style.css # Основные стили
-│ └── media.css # Медиа‑запросы (опционально)
 ├── assets/
 │ ├── images/ # Изображения
 │ └── fonts/ # Шрифты
-├── .gitignore # Исключения для Git
 └── README.md # Этот файл
 
 
