@@ -151,7 +151,7 @@ padding-bottom: 120px;
 }
 .cond {
   margin-top: 470px;
-  background: url(/assets/images/cond/Eclipse.png);
+  background: url(../assets/images/cond/Eclipse.png);
   width: 100%;
   background-size: cover;
 }
@@ -262,7 +262,7 @@ color: #FFFFFF;
   margin: 0 0 12px 0;
   color: #000000;
   font-family: 'Helvetica Neue';
-  font-style: bold;
+ 
   font-weight: 700;
   font-size: 48px;
 }
@@ -270,7 +270,7 @@ color: #FFFFFF;
 .sidebar p {
   margin: 0;
   font-family: 'Inter';
-  font-style: Regular;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   color: #000000;
@@ -333,7 +333,7 @@ color: #FFFFFF;
 }
 
 .zayavka {
-  background-image: url(/assets/images/forma/Eclipse.png);
+  background-image: url(../assets/images/forma/Eclipse.png);
   background-position: center;
 }
  .container-zay {
@@ -494,6 +494,34 @@ color: #FFFFFF;
             transform: scale(1.02);
         }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.foot {
+  margin: 64px 0 64px 112px;
+  display: flex;
+  flex-direction: column;
+}
+.logo2 {
+  margin: 73px 112px 73px 0;  
+  display: flex;
+  flex-direction: column; 
+}
+.logo2 a {
+    font-family: "Inter", sans-serif;
+    font-weight: 900; /* Black */
+    font-size: 36px;
+}
+.logo2 span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D1D1D1;
+    text-align: center;
+}
 @media (max-width: 767px) {
 .header-nav li:not(:last-child) {
 display: none;
@@ -551,7 +579,7 @@ grid-template-areas:
 "c1"
 "c2"
 "c3"
-"c4"
+"c4";
 }
 .grid {
 grid-template-columns: 1fr;
@@ -559,7 +587,7 @@ grid-template-areas:
 "c1"
 "c2"
 "c3"
-"c4"
+"c4";
 }
 }
 @media (max-width: 374px) {
